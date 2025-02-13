@@ -1,0 +1,133 @@
+*{
+    font-family: Helvetica
+    }
+  
+   body {
+      background-color: #dbdbd9;
+      margin : 0 auto;
+      padding: 0;
+   }
+ 
+ header {
+    background: url(image/bannière.jpg) 100% fixed;
+    height: 50vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px;
+ 
+ }
+ 
+ h1.titre {
+    font-size: 50px;
+ }
+ 
+ h3.slogan {
+    font-size: 30px;;
+ }
+ 
+ ul.hotel li {
+    color:#fdf9f9;
+    display: inline-block;
+    background-color: #373737;
+    padding: 20px;
+  }
+ 
+  section#hotel {
+    width: 100%;
+  }
+ 
+  
+  div.hotel-item {
+    color: #373737;
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+    margin: 10px;
+    position: relative;
+    flex: 1 0 29%;
+    background-repeat:no no-repeat;
+  }
+ 
+ 
+  div.hotel-item img {
+    width: 200px;
+  }
+ 
+  div.hotel-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 20% 0 20%;
+ }
+ 
+ div.hotel-item:hover {
+       transform: scale(1.1);
+       box-shadow: 0 16px 32px 0 rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0,.19,) ; 
+       transition: 1,1s all ;
+ }
+ 
+ .hotel1 {background : url(image/hotel1.jpg)}
+ .hotel2 {background : url(image/hotel2.jpg)}
+ .hotel3 {background : url(image/hotel3.jpg)}
+ .hotel2 {background : url(image/hotel4.jpg)}
+ .hotel2 {background : url(image/hotel5.avif)}
+ .hotel2 {background : url(image/hotel6.jpg)}
+ 
+ 
+ .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+ }
+ 
+ span.nom {
+    position: relative;
+    color: #ffffff;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    top: 20px;
+    float: right ;
+    padding: 12px ;
+    font-size: 15px;
+ }
+ 
+ span.prix {
+    position: relative;
+    color: #ffffff;
+   background-color: rgba(128, 128, 128, 0.5);
+   padding: 5px 10px;
+   border-radius: 5px;
+    font-size: 15px;
+    top: 150px
+ }
+ 
+ 
+ header form {
+    padding: 20px;
+ }
+
+
+ .button-submit input {
+    color: #ffffff;
+   background-color: rgba(128, 128, 128, 0.5);
+   padding: 5px 10px;
+   border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+ }
+ .button-submit{
+    text-align: center;
+ 
+ }
+ 
+ 
+
+ 
+ 
+ 
